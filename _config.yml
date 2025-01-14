@@ -22,13 +22,13 @@ repository               : "edicsonluna/edicsonluna.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Edicson Luna"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Economics PhD student"
+  location         : "Philadelphia"
+  employer         : "University of Pennsylvania"
   uri              : # URL
-  email            : "none@example.org"
+  email            : "edicson@sas.upenn.edu"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
