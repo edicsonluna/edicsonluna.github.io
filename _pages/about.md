@@ -11,7 +11,7 @@ redirect_from:
 About me
 ======
 
-Welcome! I am a PhD student in Economics at the University of Pennsylvania. My research interests focus on the intersection of Development, Industrial Organization, and Trade.
+Welcome! I am a second-year PhD student in Economics at the University of Pennsylvania. My research focuses on Development, incorporating insights from Industrial Organization, Trade, and Machine Learning.
 
 I earned my undergraduate degree in Economics at Universidad del Pacífico (Peru) and my master's degree in Economics at Universidad de los Andes (Colombia).
 
