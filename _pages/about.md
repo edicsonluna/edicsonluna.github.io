@@ -15,4 +15,4 @@ Welcome! I am a second-year PhD student in Economics at the University of Pennsy
 
 I earned my undergraduate degree in Economics at Universidad del Pacífico (Peru) and my master's degree in Economics at Universidad de los Andes (Colombia).
 
-You can access my CV [here](https://www.dropbox.com/scl/fi/jd0qh0vgu6qtzphi7zgo8/CV.pdf?rlkey=fjv4m57r9zsqy2yo3yajgm8jv&st=5z7ilvby&dl=0).
+You can access my CV [here](https://www.dropbox.com/scl/fi/jd0qh0vgu6qtzphi7zgo8/CV.pdf?rlkey=fjv4m57r9zsqy2yo3yajgm8jv&st=uy3ehgrw&dl=0).
