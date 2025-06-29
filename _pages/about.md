@@ -18,4 +18,4 @@ I am open to collaborating with fellow PhD students who share similar interests.
 
 I hold a BA in Economics from Universidad del Pacífico (Peru) and an MA in Economics from Universidad de los Andes (Colombia).
 
-You can view my CV [here](https://www.dropbox.com/scl/fi/jd0qh0vgu6qtzphi7zgo8/CV.pdf?rlkey=fjv4m57r9zsqy2yo3yajgm8jv&st=lbpo24tv&dl=0).
+You can view my CV [here](https://www.dropbox.com/scl/fi/7rnleaj51vqs3jpazq5wd/CV.pdf?rlkey=r8p9pari2lymqwg3glhtbd8xt&st=ks63mn9o&dl=0).
