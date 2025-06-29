@@ -3,7 +3,7 @@ title: "Strategic Reasoning – University of Pennsylvania"
 collection: teaching
 type: "Summer class"
 permalink: /teaching/2025-summer-strategic-reasoning
-venue: "University of Pennsylvania (USA)"
+venue: "University of Pennsylvania"
 date: 2025-05-27
 location: "Philadelphia, USA"
 ---
