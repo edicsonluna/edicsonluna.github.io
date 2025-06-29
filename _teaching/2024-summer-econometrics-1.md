@@ -17,6 +17,6 @@ Topics include:
 - Heteroskedasticity and omitted variable bias  
 - Asymptotic theory  
 - Introduction to causal inference  
-- Forecasting
+- Dummy variables
 
 The course includes three quizzes, a final exam, two empirical projects, and student presentations. It is part of the core curriculum for undergraduate economics students and serves as a prerequisite for Econometría 2.
