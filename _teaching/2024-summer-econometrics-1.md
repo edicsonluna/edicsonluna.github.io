@@ -3,7 +3,7 @@ title: "Econometrics 1 – Universidad de los Andes"
 collection: teaching
 type: "Summer class"
 permalink: /teaching/2024-summer-econometrics-1
-venue: "Universidad de los Andes, Facultad de Economía"
+venue: "Universidad de los Andes (Colombia)"
 date: 2024-06-04
 location: "Bogotá, Colombia"
 ---
