@@ -10,13 +10,7 @@ location: "Bogotá, Colombia"
 
 **Econometrics 1** introduces the foundational tools of applied econometric analysis. It focuses on the basic linear regression model and a little of causal inference. The course blends theoretical lectures with practical sessions using the R programming language.
 
-Topics include:
-
-- OLS estimation and statistical inference  
-- Model assumptions and diagnostics  
-- Heteroskedasticity
-- Asymptotic theory
-- Introduction to causal inference
+Topics include OLS estimation and statistical inference, model assumptions and diagnostics, heteroskedasticity, asymptotic theory, and introduction to causal inference.
 
 Materials:
 - [📄 Week 1 Statistical Overview](/files/W1_Stat_Overview.pdf)
