@@ -17,4 +17,4 @@ My broader research interests center on welfare analysis from a labor economics 
 
 I hold a BA in Economics from Universidad del Pacífico (Peru) and an MA in Economics from Universidad de los Andes (Colombia).
 
-You can view my CV [here](https://www.dropbox.com/scl/fi/7rnleaj51vqs3jpazq5wd/CV.pdf?rlkey=r8p9pari2lymqwg3glhtbd8xt&st=ks63mn9o&dl=0).
+You can access my CV here: [📄 View CV](https://edicsonluna.github.io/my-cv/EdicsonLuna_CV.pdf).
