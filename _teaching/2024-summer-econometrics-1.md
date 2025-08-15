@@ -19,5 +19,5 @@ Topics include:
 - Introduction to causal inference
 
 Materials:
-- [📄 Week 1 Statistical Overview](files/W1_Stat_Overview.pdf)
-- [📄 Week 2 OLS](files/W2_OLS.pdf)
+- [📄 Week 1 Statistical Overview](/files/W1_Stat_Overview.pdf)
+- [📄 Week 2 OLS](/files/W2_OLS.pdf)
