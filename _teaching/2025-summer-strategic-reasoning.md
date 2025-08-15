@@ -8,15 +8,9 @@ date: 2025-05-27
 location: "Philadelphia, USA"
 ---
 
-**Strategic Reasoning (ECON 0120 / PPE 3001)** introduces students to the fundamentals of game theory and strategic decision-making. The course emphasizes intuitive understanding and practical applications, rather than formal proofs, and draws examples from business, economics, politics, and sports.
+**Strategic Reasoning (ECON 0120 / PPE 3001)** introduces students to the fundamentals of game theory and strategic decision-making. The course emphasizes intuitive understanding and practical applications, rather than formal proofs, and draws examples from business, economics, politics, and sports. This class is part of the **PPE** and **Economics** undergraduate curriculum at Penn and is open to students with basic algebra and strong numeracy skills.
 
-Topics include:
+Topics include sequential and simultaneous-move games, Nash equilibrium (discrete and continuous choices), mixed strategies, risk and asymmetric information, repeated games and the Prisoner’s Dilemma, and collective action problems.
 
-- Sequential and simultaneous-move games  
-- Nash equilibrium (discrete and continuous choices)  
-- Mixed strategies  
-- Risk and asymmetric information  
-- Repeated games and the Prisoner’s Dilemma  
-- Collective action and coordination problems
-
-This class is part of the **PPE** and **Economics** undergraduate curriculum at Penn and is open to students with basic algebra and strong numeracy skills.
+Material:
+- [Introduction](/files/strategic_reasoning/C1_Introduction.pdf)
