@@ -11,10 +11,9 @@ redirect_from:
 About me
 ======
 
-Welcome! I am a PhD student in Economics at the University of Pennsylvania, entering my third year in the 2025–2026 academic year.
-My research focuses on topics relevant to welfare analysis, including labor markets, health, and education. My third-year paper explores how individuals rely on informal networks to offset low wages and high commuting costs.
+Welcome! I am a PhD student in Economics at the University of Pennsylvania, entering my third year in the 2025–2026 academic year. My current research examines how individuals rely on informal networks to offset low wages and high commuting costs.
 
-I am open to collaborating with fellow PhD students who share similar interests.
+My broader research interests center on welfare analysis from a labor economics perspective, with a particular focus on automation, family structures, and urban dynamics. I am open to collaborations with fellow PhD students who share similar interests.
 
 I hold a BA in Economics from Universidad del Pacífico (Peru) and an MA in Economics from Universidad de los Andes (Colombia).
 
