@@ -18,6 +18,5 @@ Topics include:
 - Asymptotic theory
 - Introduction to causal inference
 
-**Materials:**
-- [📄 Statistical Overview (PDF)](W1_Stat_Overview.pdf)
-- [📄 OLS (PDF)](W2_OLS.pdf)
+Materials:
+- [📄 Statistical Overview](edicsonluna.github.io/W1_Stat_Overview.pdf)
