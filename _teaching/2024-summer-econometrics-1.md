@@ -19,5 +19,5 @@ Topics include:
 - Introduction to causal inference
 
 **Materials:**
-- [📄 Statistical Overview (PDF)](edicsonluna.github.io/W1_Stat_Overview.pdf)
-- [📄 OLS (PDF)](edicsonluna.github.io/W2_OLS.pdf)
+- [📄 Statistical Overview (PDF)](W1_Stat_Overview.pdf)
+- [📄 OLS (PDF)](W2_OLS.pdf)
