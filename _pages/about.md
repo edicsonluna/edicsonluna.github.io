@@ -11,9 +11,10 @@ redirect_from:
 About me
 ======
 
-Welcome! I am a PhD student in Economics at the University of Pennsylvania, entering my third year in the 2025–2026 academic year. My third year paper will study how individuals rely on informal networks to offset low wages and high commuting costs.
+Welcome! I am a PhD student in Economics at the University of Pennsylvania, entering my third year in the 2025–2026 academic year.
+My current research studies how informal job networks interact with spatial frictions in highly segregated urban labor markets—focusing on Bogotá as a setting where commuting costs, information constraints, and informality shape workers’ job-finding outcomes.
 
-My broader research interests center on welfare analysis from a labor economics perspective, with a particular focus on automation, family structures, and urban dynamics. I am open to collaborations with fellow PhD students who share similar interests.
+My broader research interests lie in urban economics, labor markets, spatial inequality, and search & networks. I am especially interested in how geographic constraints and informal mechanisms of job search jointly affect welfare, mobility, and the allocation of labor. I welcome collaborations with fellow PhD students working on related themes.
 
 I hold a BA in Economics from Universidad del Pacífico (Peru) and an MA in Economics from Universidad de los Andes (Colombia).
 
