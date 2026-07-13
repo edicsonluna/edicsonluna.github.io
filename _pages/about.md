@@ -11,7 +11,7 @@ redirect_from:
 About me
 ======
 
-Welcome! I am a PhD student in Economics at the University of Pennsylvania, entering my third year in the 2025–2026 academic year.
+Welcome! I am a PhD student in Economics at the University of Pennsylvania, entering my fourth year in the 2026–2027 academic year.
 
 My current research studies how the duality between formal and informal employment interacts with commuting costs and housing affordability in highly segregated urban labor markets—focusing on Bogotá, where these frictions shape residential sorting and educational segregation across the city.
 
