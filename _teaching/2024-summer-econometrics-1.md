@@ -13,8 +13,8 @@ location: "Bogotá, Colombia"
 Topics include OLS estimation and statistical inference, model assumptions and diagnostics, heteroskedasticity, asymptotic theory, and introduction to causal inference.
 
 Materials:
-- [📄 Week 1 Statistical Overview](/files/econometrics1_uniandes/W1_Stat_Overview.pdf)
-- [📄 Week 2 OLS](/files/econometrics1_uniandes/W2_OLS.pdf)
-- [📄 Week 3 Statistical Inference](/files/econometrics1_uniandes/W3_Statistical_Inference.pdf)
-- [📄 Week 4 Asymptotic Theory](/files/econometrics1_uniandes/W4_Asymptotic_Theory.pdf)
-- [📄 Week 5 Potential Outcomes](/files/econometrics1_uniandes/W5_Potential_Outcomes.pdf)
+- [📄 Week 1 Statistical Overview](/files/econometrics1_uniandes/Mod 1 - Statistics Overview.pdf)
+- [📄 Week 2 OLS](/files/econometrics1_uniandes/Mod 2 - OLS.pdf)
+- [📄 Week 3 Statistical Inference](/files/econometrics1_uniandes/Mod 3 - Statistical Inference.pdf)
+- [📄 Week 4 Asymptotic Theory](/files/econometrics1_uniandes/Mod 4 - Asymptotic Theory.pdf)
+- [📄 Week 5 Potential Outcomes](/files/econometrics1_uniandes/Mod 5 - Potential Outcomes.pdf)
