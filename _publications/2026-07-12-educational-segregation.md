@@ -5,7 +5,6 @@ category: manuscripts
 permalink: /research/educational-segregation
 excerpt: "This paper studies how educational differences, labor-market segmentation, and housing costs shape residential sorting and access to formal employment across Bogotá."
 date: 2026-07-12
-venue: "Working paper"
 paperurl: "https://edicsonluna.github.io/educational-segregation/Educational_Segregation.pdf"
 citation: 'Edicson Luna. (2026). &quot;Educational Sorting and Labor Market Segmentation: Evidence from Bogotá.&quot; Working paper.'
 ---
