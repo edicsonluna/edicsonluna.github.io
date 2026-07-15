@@ -28,10 +28,8 @@
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
-      {% if post.collection == 'publications' and post.paperurl %}
-        <a href="{{ post.paperurl }}" target="_blank" rel="noopener">
-          {{ title }}
-        </a>
+      {% if post.collection == 'publications' %}
+        {{ title }}
       {% elsif post.link %}
         <a href="{{ post.link }}">
           {{ title }}
