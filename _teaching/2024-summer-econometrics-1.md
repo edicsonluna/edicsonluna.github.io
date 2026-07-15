@@ -1,10 +1,11 @@
 ---
-title: "Econometrics 1 – Universidad de los Andes (2024 and 2026)"
+title: "Econometrics 1 – Universidad de los Andes"
 collection: teaching
 type: "Summer class"
 permalink: /teaching/econometrics-1
 venue: "Universidad de los Andes (Colombia)"
-date: 2024-06-04
+date: 2026-06-04
+custom_date: "2024 and 2026"
 location: "Bogotá, Colombia"
 ---
 
