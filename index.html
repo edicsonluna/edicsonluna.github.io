@@ -16,8 +16,7 @@
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
 
-    <header class="site-header" aria-label="Primary">
-      <a class="brand" href="/" aria-label="ediluna home">ediluna</a>
+    <header class="site-header compact" aria-label="Primary">
       <nav class="nav-links">
         <a href="#research">Research</a>
         <a href="#teaching">Teaching</a>
@@ -49,7 +48,6 @@
 
         <figure class="portrait-wrap">
           <img src="images/profile.png" alt="Edicson Luna outdoors in the Andes">
-          <figcaption>ediluna</figcaption>
         </figure>
       </section>
 
@@ -97,7 +95,7 @@
       </section>
 
       <section class="section materials" aria-label="Course materials">
-        <details id="econometrics-materials" open>
+        <details id="econometrics-materials">
           <summary>Econometrics I materials</summary>
           <div class="material-grid">
             <a href="files/econometrics1_uniandes/Mod 1 - Statistics Overview.pdf">Statistics Overview</a>
@@ -111,7 +109,7 @@
           </div>
         </details>
 
-        <details id="strategic-materials" open>
+        <details id="strategic-materials">
           <summary>Strategic Reasoning materials</summary>
           <div class="material-grid">
             <a href="files/strategic_reasoning/C1_Introduction.pdf">Introduction</a>
@@ -141,7 +139,17 @@
 
     <footer class="site-footer">
       <span>&copy; 2026 Edicson Luna</span>
-      <a href="/">ediluna</a>
+      <a href="/">Back to top</a>
     </footer>
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach((link) => {
+        link.addEventListener("click", () => {
+          const target = document.querySelector(link.getAttribute("href"));
+          if (target && target.tagName === "DETAILS") {
+            target.open = true;
+          }
+        });
+      });
+    </script>
   </body>
 </html>
