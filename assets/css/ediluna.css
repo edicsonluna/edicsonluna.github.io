@@ -257,8 +257,7 @@ h1 {
 
 .feature-item,
 .teaching-item,
-.materials details,
-.contact {
+.materials details {
   border-top: 1px solid rgba(83, 96, 109, 0.22);
 }
 
@@ -347,28 +346,6 @@ h1 {
   color: var(--navy);
 }
 
-.contact {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 2rem;
-  align-items: end;
-  margin-top: 2.2rem;
-  padding-top: 2rem;
-}
-
-.contact h2 {
-  max-width: 540px;
-  margin-bottom: 0;
-  font-size: clamp(1.35rem, 2.1vw, 2rem);
-  line-height: 1.2;
-}
-
-.contact-links {
-  display: grid;
-  gap: 0.6rem;
-  justify-items: end;
-}
-
 .site-footer {
   display: flex;
   justify-content: space-between;
@@ -394,13 +371,8 @@ h1 {
     height: 360px;
   }
 
-  .teaching-item,
-  .contact {
+  .teaching-item {
     grid-template-columns: 1fr;
-  }
-
-  .contact-links {
-    justify-items: start;
   }
 
   .material-grid {
