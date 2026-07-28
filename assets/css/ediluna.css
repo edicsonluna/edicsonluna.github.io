@@ -357,9 +357,10 @@ h1 {
 }
 
 .contact h2 {
-  max-width: 620px;
+  max-width: 540px;
   margin-bottom: 0;
-  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-size: clamp(1.35rem, 2.1vw, 2rem);
+  line-height: 1.2;
 }
 
 .contact-links {
@@ -463,10 +464,7 @@ h1 {
   }
 
   .hero-actions {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 0.85rem 1.2rem;
+    display: block;
     margin-top: 1.25rem;
   }
 
@@ -475,7 +473,7 @@ h1 {
   }
 
   .button.primary {
-    grid-column: 1 / -1;
+    width: 100%;
   }
 
   .button.text {
