@@ -147,7 +147,7 @@ h3 {
 
 h1 {
   margin-bottom: 0.75rem;
-  font-size: clamp(2.7rem, 5vw, 4.2rem);
+  font-size: clamp(2.25rem, 4vw, 3.2rem);
 }
 
 .rule {
@@ -371,15 +371,10 @@ h1 {
   }
 
   .site-header {
-    align-items: flex-start;
-    flex-direction: column;
     padding-top: 16px;
   }
 
   .nav-links {
-    width: 100%;
-    justify-content: space-between;
-    gap: 0.65rem;
     font-size: 0.7rem;
   }
 
@@ -390,7 +385,7 @@ h1 {
   }
 
   h1 {
-    font-size: 2.3rem;
+    font-size: 1.95rem;
   }
 
   .eyebrow {
