@@ -32,8 +32,8 @@ body {
     var(--paper);
   color: var(--ink);
   font-family: var(--sans);
-  font-size: 18px;
-  line-height: 1.65;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 body::before {
@@ -112,7 +112,7 @@ main,
   grid-template-columns: minmax(0, 1fr) 250px;
   gap: clamp(2rem, 5vw, 4rem);
   align-items: center;
-  min-height: 510px;
+  min-height: 450px;
   padding: clamp(34px, 6vw, 58px) 0 38px;
 }
 
@@ -147,7 +147,7 @@ h3 {
 
 h1 {
   margin-bottom: 0.75rem;
-  font-size: clamp(3.1rem, 6vw, 5.25rem);
+  font-size: clamp(2.7rem, 5vw, 4.2rem);
 }
 
 .rule {
@@ -160,14 +160,14 @@ h1 {
 .role {
   margin-bottom: 1.25rem;
   color: #35414f;
-  font-size: clamp(1.05rem, 1.5vw, 1.3rem);
+  font-size: clamp(1rem, 1.4vw, 1.16rem);
   line-height: 1.42;
 }
 
 .intro {
   max-width: 680px;
   color: var(--muted);
-  font-size: clamp(1rem, 1.45vw, 1.12rem);
+  font-size: clamp(0.95rem, 1.35vw, 1.05rem);
 }
 
 .hero-actions {
@@ -256,8 +256,7 @@ h1 {
 }
 
 .feature-item,
-.teaching-item,
-.materials details {
+.teaching-item {
   border-top: 1px solid rgba(83, 96, 109, 0.22);
 }
 
@@ -275,7 +274,7 @@ h1 {
 .feature-item h3 {
   max-width: 800px;
   margin-bottom: 1.05rem;
-  font-size: clamp(1.65rem, 3vw, 2.35rem);
+  font-size: clamp(1.45rem, 2.7vw, 2.05rem);
 }
 
 .feature-item p {
@@ -296,42 +295,25 @@ h1 {
 }
 
 .teaching-item {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 1.5rem;
-  align-items: baseline;
-  padding: 1.35rem 0;
+  padding: 1.45rem 0 1.65rem;
 }
 
 .teaching-item h3 {
-  margin-bottom: 0.25rem;
-  font-size: clamp(1.45rem, 2.5vw, 1.95rem);
+  margin-bottom: 0.35rem;
+  font-size: clamp(1.3rem, 2.2vw, 1.7rem);
 }
 
-.teaching-item p {
-  margin-bottom: 0;
+.teaching-meta {
+  margin-bottom: 0.4rem;
   color: var(--muted);
-}
-
-.materials {
-  padding-top: 0.4rem;
-}
-
-.materials details {
-  padding: 0.9rem 0;
-}
-
-.materials summary {
-  cursor: pointer;
-  color: var(--navy);
-  font-weight: 720;
+  font-size: 0.9rem;
 }
 
 .material-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.7rem 1rem;
-  margin-top: 1.05rem;
+  margin-top: 0.5rem;
 }
 
 .material-grid a {
@@ -339,7 +321,7 @@ h1 {
   padding: 0.72rem 0;
   border-bottom: 1px solid rgba(83, 96, 109, 0.18);
   color: var(--muted);
-  font-size: 0.96rem;
+  font-size: 0.9rem;
 }
 
 .material-grid a:hover {
@@ -353,7 +335,7 @@ h1 {
   padding: 2.2rem 0 2.8rem;
   border-top: 1px solid rgba(83, 96, 109, 0.22);
   color: var(--quiet);
-  font-size: 0.95rem;
+  font-size: 0.85rem;
 }
 
 @media (max-width: 900px) {
@@ -371,10 +353,6 @@ h1 {
     height: 360px;
   }
 
-  .teaching-item {
-    grid-template-columns: 1fr;
-  }
-
   .material-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -382,7 +360,7 @@ h1 {
 
 @media (max-width: 620px) {
   body {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.55;
   }
 
@@ -412,7 +390,7 @@ h1 {
   }
 
   h1 {
-    font-size: 2.65rem;
+    font-size: 2.3rem;
   }
 
   .eyebrow {
@@ -428,11 +406,11 @@ h1 {
 
   .role {
     margin-bottom: 1rem;
-    font-size: 1.02rem;
+    font-size: 0.98rem;
   }
 
   .intro {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   .hero-actions {

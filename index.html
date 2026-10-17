@@ -75,52 +75,36 @@
 
         <div class="teaching-list">
           <article class="teaching-item">
-            <div>
-              <h3>Econometrics I</h3>
-              <p>Summer course, Universidad de los Andes, Colombia &middot; 2024 and 2026</p>
-            </div>
-            <a class="inline-link" href="#econometrics-materials">Course materials <span aria-hidden="true">&rarr;</span></a>
+            <p class="teaching-meta">Summer course, Universidad de los Andes, Colombia &middot; 2024 and 2026</p>
+            <h3>Econometrics I</h3>
+            <nav class="material-grid" aria-label="Econometrics I course materials">
+              <a href="files/econometrics1_uniandes/Mod 1 - Statistics Overview.pdf">Statistics Overview</a>
+              <a href="files/econometrics1_uniandes/Mod 2 - OLS.pdf">OLS</a>
+              <a href="files/econometrics1_uniandes/Mod 3 - Statistical Inference.pdf">Statistical Inference</a>
+              <a href="files/econometrics1_uniandes/Mod 4 - Asymptotic Theory.pdf">Asymptotic Theory</a>
+              <a href="files/econometrics1_uniandes/Mod 5 - Potential Outcomes.pdf">Potential Outcomes</a>
+              <a href="files/econometrics1_uniandes/AT 1 - Binary Outcome.pdf">Binary Outcome</a>
+              <a href="files/econometrics1_uniandes/AT 2 - IV.pdf">Instrumental Variables</a>
+              <a href="files/econometrics1_uniandes/AT 3 - DID.pdf">Difference-in-Differences</a>
+            </nav>
           </article>
 
           <article class="teaching-item">
-            <div>
-              <h3>Strategic Reasoning</h3>
-              <p>Summer course, University of Pennsylvania &middot; 2025</p>
-            </div>
-            <a class="inline-link" href="#strategic-materials">Course materials <span aria-hidden="true">&rarr;</span></a>
+            <p class="teaching-meta">Summer course, University of Pennsylvania &middot; 2025</p>
+            <h3>Strategic Reasoning</h3>
+            <nav class="material-grid" aria-label="Strategic Reasoning course materials">
+              <a href="files/strategic_reasoning/C1_Introduction.pdf">Introduction</a>
+              <a href="files/strategic_reasoning/C2_Games_with_Sequential_Moves.pdf">Sequential Moves</a>
+              <a href="files/strategic_reasoning/C3_Simultaneous_Games.pdf">Simultaneous Games</a>
+              <a href="files/strategic_reasoning/C4_Combinations.pdf">Combinations</a>
+              <a href="files/strategic_reasoning/C5_Mixed_Strategies.pdf">Mixed Strategies</a>
+              <a href="files/strategic_reasoning/C6_Risk.pdf">Risk</a>
+              <a href="files/strategic_reasoning/C7_Asymmetric_Information.pdf">Asymmetric Information</a>
+              <a href="files/strategic_reasoning/C8_Repeated_Games.pdf">Repeated Games</a>
+              <a href="files/strategic_reasoning/C9_Collective_Action_Games.pdf">Collective Action</a>
+            </nav>
           </article>
         </div>
-      </section>
-
-      <section class="section materials" aria-label="Course materials">
-        <details id="econometrics-materials">
-          <summary>Econometrics I materials</summary>
-          <div class="material-grid">
-            <a href="files/econometrics1_uniandes/Mod 1 - Statistics Overview.pdf">Statistics Overview</a>
-            <a href="files/econometrics1_uniandes/Mod 2 - OLS.pdf">OLS</a>
-            <a href="files/econometrics1_uniandes/Mod 3 - Statistical Inference.pdf">Statistical Inference</a>
-            <a href="files/econometrics1_uniandes/Mod 4 - Asymptotic Theory.pdf">Asymptotic Theory</a>
-            <a href="files/econometrics1_uniandes/Mod 5 - Potential Outcomes.pdf">Potential Outcomes</a>
-            <a href="files/econometrics1_uniandes/AT 1 - Binary Outcome.pdf">Binary Outcome</a>
-            <a href="files/econometrics1_uniandes/AT 2 - IV.pdf">Instrumental Variables</a>
-            <a href="files/econometrics1_uniandes/AT 3 - DID.pdf">Difference-in-Differences</a>
-          </div>
-        </details>
-
-        <details id="strategic-materials">
-          <summary>Strategic Reasoning materials</summary>
-          <div class="material-grid">
-            <a href="files/strategic_reasoning/C1_Introduction.pdf">Introduction</a>
-            <a href="files/strategic_reasoning/C2_Games_with_Sequential_Moves.pdf">Sequential Moves</a>
-            <a href="files/strategic_reasoning/C3_Simultaneous_Games.pdf">Simultaneous Games</a>
-            <a href="files/strategic_reasoning/C4_Combinations.pdf">Combinations</a>
-            <a href="files/strategic_reasoning/C5_Mixed_Strategies.pdf">Mixed Strategies</a>
-            <a href="files/strategic_reasoning/C6_Risk.pdf">Risk</a>
-            <a href="files/strategic_reasoning/C7_Asymmetric_Information.pdf">Asymmetric Information</a>
-            <a href="files/strategic_reasoning/C8_Repeated_Games.pdf">Repeated Games</a>
-            <a href="files/strategic_reasoning/C9_Collective_Action_Games.pdf">Collective Action</a>
-          </div>
-        </details>
       </section>
     </main>
 
@@ -128,15 +112,5 @@
       <span>&copy; 2026 Edicson Luna</span>
       <a href="/">Back to top</a>
     </footer>
-    <script>
-      document.querySelectorAll('a[href^="#"]').forEach((link) => {
-        link.addEventListener("click", () => {
-          const target = document.querySelector(link.getAttribute("href"));
-          if (target && target.tagName === "DETAILS") {
-            target.open = true;
-          }
-        });
-      });
-    </script>
   </body>
 </html>
