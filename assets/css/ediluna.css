@@ -147,7 +147,7 @@ h3 {
 
 h1 {
   margin-bottom: 0.75rem;
-  font-size: clamp(2rem, 3.3vw, 2.55rem);
+  font-size: clamp(1.75rem, 2.5vw, 2.1rem);
 }
 
 .rule {
@@ -274,7 +274,7 @@ h1 {
 .feature-item h3 {
   max-width: 800px;
   margin-bottom: 1.05rem;
-  font-size: clamp(1.45rem, 2.7vw, 2.05rem);
+  font-size: clamp(1.2rem, 2vw, 1.55rem);
 }
 
 .feature-item p {
@@ -423,7 +423,7 @@ h1 {
   }
 
   h1 {
-    font-size: 1.7rem;
+    font-size: 1.55rem;
   }
 
   .eyebrow {
