@@ -112,7 +112,7 @@ main,
   grid-template-columns: minmax(0, 1fr) 250px;
   gap: clamp(2rem, 5vw, 4rem);
   align-items: center;
-  min-height: 450px;
+  min-height: 420px;
   padding: clamp(34px, 6vw, 58px) 0 38px;
 }
 
@@ -147,7 +147,7 @@ h3 {
 
 h1 {
   margin-bottom: 0.75rem;
-  font-size: clamp(2.25rem, 4vw, 3.2rem);
+  font-size: clamp(2rem, 3.3vw, 2.55rem);
 }
 
 .rule {
@@ -309,6 +309,44 @@ h1 {
   font-size: 0.9rem;
 }
 
+.course-materials summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--navy);
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 680;
+  list-style: none;
+}
+
+.course-materials summary::-webkit-details-marker {
+  display: none;
+}
+
+.course-materials summary::before {
+  content: "";
+  width: 0.42rem;
+  height: 0.42rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(-45deg);
+  transition: transform 0.2s ease;
+}
+
+.course-materials[open] summary::before {
+  transform: rotate(45deg);
+}
+
+.course-materials summary:hover {
+  color: var(--rust);
+}
+
+.course-materials summary:focus-visible {
+  outline: 2px solid var(--navy);
+  outline-offset: 4px;
+}
+
 .material-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -385,7 +423,7 @@ h1 {
   }
 
   h1 {
-    font-size: 1.95rem;
+    font-size: 1.7rem;
   }
 
   .eyebrow {
