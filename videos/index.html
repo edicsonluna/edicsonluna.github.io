@@ -6,7 +6,7 @@
     <title>Videos | Edicson Luna</title>
     <meta name="description" content="Economics videos in Spanish with English subtitles by Edicson Luna.">
     <link rel="icon" href="../images/favicon.ico">
-    <link rel="stylesheet" href="../assets/css/ediluna.css?v=20261027-4">
+    <link rel="stylesheet" href="../assets/css/ediluna.css?v=20261108-1">
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -24,26 +24,42 @@
         <p class="video-intro">This is a set of videos I am building to share general concepts of economics. They are in Spanish, but include English subtitles.</p>
 
         <div class="video-list">
-          <!-- Add future videos by copying this article and updating its title, text, and video path. -->
-          <article class="video-entry">
-            <p class="item-kicker">2:40</p>
-            <h2>Types of Workers</h2>
-            <video controls preload="metadata" playsinline width="1080" height="1920" aria-label="Types of Workers video in Spanish with English subtitles">
-              <source src="tipos-de-trabajadores/tipos_de_trabajadores_final_EN.mp4" type="video/mp4">
-              Your browser does not support video playback.
-            </video>
-            <a class="inline-link" href="tipos-de-trabajadores/tipos_de_trabajadores_final_EN.mp4" download>Download video <span aria-hidden="true">&darr;</span></a>
-          </article>
+          <!-- Add future videos by copying a details block and updating its title, duration, description, and file path. -->
+          <details class="video-card">
+            <summary>
+              <span class="video-card-heading">
+                <span class="video-card-title" role="heading" aria-level="2">Types of Workers</span>
+                <span class="video-card-duration">2:40</span>
+              </span>
+              <span class="video-card-description">An introduction to different types of workers and informal employment.</span>
+              <span class="video-card-action"><span class="when-closed">Watch video</span><span class="when-open">Hide video</span></span>
+            </summary>
+            <div class="video-card-player">
+              <video controls preload="metadata" playsinline width="1080" height="1920" aria-label="Types of Workers video in Spanish with English subtitles">
+                <source src="tipos-de-trabajadores/tipos_de_trabajadores_final_EN.mp4" type="video/mp4">
+                Your browser does not support video playback.
+              </video>
+              <a class="inline-link" href="tipos-de-trabajadores/tipos_de_trabajadores_final_EN.mp4" download>Download video <span aria-hidden="true">&darr;</span></a>
+            </div>
+          </details>
 
-          <article class="video-entry">
-            <p class="item-kicker">2:21</p>
-            <h2>Work and Gender &mdash; Part 2</h2>
-            <video controls preload="metadata" playsinline width="1080" height="1920" aria-label="Work and Gender, Part 2 video in Spanish with English subtitles">
-              <source src="trabajo-y-genero/trabajos_hombres_mujeres_final_EN.mp4" type="video/mp4">
-              Your browser does not support video playback.
-            </video>
-            <a class="inline-link" href="trabajo-y-genero/trabajos_hombres_mujeres_final_EN.mp4" download>Download video <span aria-hidden="true">&darr;</span></a>
-          </article>
+          <details class="video-card">
+            <summary>
+              <span class="video-card-heading">
+                <span class="video-card-title" role="heading" aria-level="2">Work and Gender &mdash; Part 2</span>
+                <span class="video-card-duration">2:21</span>
+              </span>
+              <span class="video-card-description">A look at how gender shapes work and the experiences of women in the labor market.</span>
+              <span class="video-card-action"><span class="when-closed">Watch video</span><span class="when-open">Hide video</span></span>
+            </summary>
+            <div class="video-card-player">
+              <video controls preload="metadata" playsinline width="1080" height="1920" aria-label="Work and Gender, Part 2 video in Spanish with English subtitles">
+                <source src="trabajo-y-genero/trabajos_hombres_mujeres_final_EN.mp4" type="video/mp4">
+                Your browser does not support video playback.
+              </video>
+              <a class="inline-link" href="trabajo-y-genero/trabajos_hombres_mujeres_final_EN.mp4" download>Download video <span aria-hidden="true">&darr;</span></a>
+            </div>
+          </details>
         </div>
       </section>
     </main>
@@ -52,5 +68,12 @@
       <span>&copy; 2026 Edicson Luna</span>
       <a href="../">Back to home</a>
     </footer>
+    <script>
+      document.querySelectorAll('.video-card').forEach((card) => {
+        card.addEventListener('toggle', () => {
+          if (!card.open) card.querySelector('video').pause();
+        });
+      });
+    </script>
   </body>
 </html>

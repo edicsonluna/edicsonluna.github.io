@@ -421,27 +421,113 @@ h1 {
 
 .video-list {
   display: grid;
-  gap: 3rem;
+  gap: 1rem;
+  max-width: 860px;
 }
 
-.video-entry {
-  padding-top: 1.5rem;
-  border-top: 1px solid rgba(83, 96, 109, 0.22);
+.video-card {
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: 0 10px 28px rgba(18, 39, 72, 0.06);
 }
 
-.video-entry h2 {
-  margin-bottom: 1.1rem;
-  font-size: clamp(1.5rem, 2.5vw, 2rem);
+.video-card summary {
+  display: block;
+  padding: 1.25rem 1.5rem;
+  cursor: pointer;
+  list-style: none;
 }
 
-.video-entry video {
+.video-card summary::-webkit-details-marker {
+  display: none;
+}
+
+.video-card summary::marker {
+  content: "";
+}
+
+.video-card summary:hover,
+.video-card[open] summary {
+  background: rgba(242, 238, 230, 0.55);
+}
+
+.video-card summary:focus-visible {
+  outline: 2px solid var(--navy);
+  outline-offset: -4px;
+}
+
+.video-card-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.video-card-title {
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: clamp(1.3rem, 2.3vw, 1.75rem);
+  line-height: 1.2;
+}
+
+.video-card-duration {
+  flex: none;
+  color: var(--navy);
+  font-size: 0.82rem;
+  font-weight: 750;
+}
+
+.video-card-description {
+  display: block;
+  max-width: 650px;
+  margin-top: 0.5rem;
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+.video-card-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-top: 0.9rem;
+  color: var(--navy);
+  font-size: 0.86rem;
+  font-weight: 750;
+}
+
+.video-card-action::after {
+  content: "↓";
+}
+
+.video-card[open] .video-card-action::after {
+  content: "↑";
+}
+
+.video-card .when-open,
+.video-card[open] .when-closed {
+  display: none;
+}
+
+.video-card[open] .when-open {
+  display: inline;
+}
+
+.video-card-player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.25rem 1.5rem 1.5rem;
+  border-top: 1px solid var(--line);
+}
+
+.video-card-player video {
   display: block;
   width: min(100%, 380px);
   height: auto;
   background: var(--navy-deep);
 }
 
-.video-entry .inline-link {
+.video-card-player .inline-link {
   margin-top: 0.7rem;
   font-size: 0.9rem;
 }
