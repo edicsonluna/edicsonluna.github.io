@@ -19,4 +19,4 @@ My broader research interests lie in urban economics, labor markets, spatial ine
 
 I hold a BSc in Economics from Universidad del Pacífico (Peru) and an MA in Economics from Universidad de los Andes (Colombia).
 
-You can access my CV here: [📄 View CV](https://edicsonluna.github.io/my-cv/EdicsonLuna_CV.pdf).
+You can access my CV here: [📄 View CV](https://edicsonluna.github.io/CV/EdicsonLuna_CV.pdf).

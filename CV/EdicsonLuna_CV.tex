@@ -1,0 +1,109 @@
+\documentclass[11pt,letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext}
+\usepackage{microtype}
+\usepackage[margin=0.62in]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\definecolor{pennblue}{HTML}{011F5B}
+\definecolor{pennred}{HTML}{990000}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=pennblue,
+  pdftitle={Edicson Luna — Curriculum Vitae},
+  pdfauthor={Edicson Luna}
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\linespread{1.03}
+
+\newcommand{\cvsection}[2]{%
+  \par\vspace{9pt}%
+  \noindent
+  \begin{minipage}[t]{1.25in}
+    \vspace{0pt}\raggedright\small\bfseries\color{pennblue}#1
+  \end{minipage}%
+  \hspace{0.13in}%
+  \begin{minipage}[t]{\dimexpr\textwidth-1.38in\relax}
+    \vspace{0pt}#2
+  \end{minipage}%
+  \par
+}
+
+\begin{document}
+
+\noindent
+\begin{minipage}[c]{0.56\textwidth}
+  {\fontsize{19}{22}\selectfont\scshape Edicson Luna}\\[4pt]
+  \href{mailto:edicson@sas.upenn.edu}{edicson@sas.upenn.edu}\\
+  \href{https://edicsonluna.github.io/}{edicsonluna.github.io}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.39\textwidth}
+  \raggedleft
+  \includegraphics[width=\linewidth,trim=240bp 400bp 240bp 400bp,clip]{penn-logo.png}
+\end{minipage}
+
+\vspace{5pt}
+{\color{pennblue}\hrule height 0.7pt}
+
+\cvsection{Education}{
+  \textbf{University of Pennsylvania}\hfill 2023--2028 (expected)\\
+  Ph.D. in Economics\\[2pt]
+  \textbf{Universidad de los Andes}, Colombia\hfill 2021--2023\\
+  M.A. in Economics\\[2pt]
+  \textbf{Universidad del Pacífico}, Peru\hfill 2019\\
+  B.Sc. in Economics
+}
+
+\cvsection{Research Fields}{
+  Urban economics; labor economics; spatial inequality; job search and networks; informality.
+}
+
+\cvsection{Third-Year Paper}{
+  \textbf{Residential Segregation in a Dual Labor Market: Evidence from Bogotá}\\
+  \emph{Presented at LACEA 2026}\\[3pt]
+  Does the spatial concentration of formal jobs amplify residential segregation in Bogotá?
+  Using confidential 2021 Encuesta Multipropósito data and a quantitative spatial model
+  of formal and informal work, I study how job access, earnings, rents, and amenities
+  shape where workers live. Dispersing formal jobs has little effect on its own; allowing
+  amenities to adjust substantially reduces segregation.
+}
+
+\cvsection{Awards}{
+  Diploma for Excellence in First-Year Microeconomics (top performer),
+  University of Pennsylvania\\[2pt]
+  SAS travel subvention for LACEA 2026, US\$600\\[2pt]
+  PIER travel support for LACEA 2026, US\$400
+}
+
+\cvsection{Experience}{
+  \textbf{Short-Term Consultant}, World Bank\hfill Mar.--Dec. 2026\\[2pt]
+  \textbf{Research Assistant} to Marcela Eslava, Universidad de los Andes\hfill 2021--2023\\[2pt]
+  \textbf{Research Assistant} to Matthew Bird, Universidad del Pacífico\hfill 2018--2021
+}
+
+\cvsection{Teaching Experience}{
+  \textbf{Instructor}\\
+  Econometrics I, Universidad de los Andes\hfill Summers 2024, 2026\\
+  Strategic Reasoning, University of Pennsylvania\hfill Summer 2025\\[3pt]
+  \textbf{Teaching Assistant}\\
+  Development Economics (Shresth Garg), Penn\hfill Spring 2026\\
+  Strategic Reasoning (David Dillenberger), Penn\hfill Fall 2024\\[3pt]
+  \textbf{Previous teaching assistantships}\\
+  Universidad de los Andes: General Equilibrium, Environmental Justice,
+  Long-Run Macroeconomics, Microeconomics III, Game Theory, and
+  Consumer and Firm Theory. Universidad del Pacífico: Mathematics III,
+  Mathematics IV, Microeconomics I, and General Economics II.
+}
+
+\cvsection{Additional Info}{
+  \textbf{Languages:} Spanish (native), English (advanced)\\
+  \textbf{Software:} Julia, R, Stata, Python
+}
+
+\end{document}
