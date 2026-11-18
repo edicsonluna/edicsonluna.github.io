@@ -539,6 +539,39 @@ h1 {
   font-size: 0.85rem;
 }
 
+@media (min-width: 901px) {
+  .hero {
+    min-height: auto;
+    padding-bottom: 16px;
+  }
+
+  #research {
+    padding-top: 16px;
+    padding-bottom: 24px;
+  }
+
+  #teaching {
+    padding-top: 24px;
+  }
+
+  #research .section-heading,
+  #teaching .section-heading {
+    margin-bottom: 1rem;
+  }
+
+  #research .feature-item {
+    padding-top: 1.1rem;
+  }
+
+  #research .feature-item p:last-child {
+    margin-bottom: 0;
+  }
+
+  #teaching .teaching-item {
+    padding-top: 1.1rem;
+  }
+}
+
 @media (max-width: 900px) {
   .hero {
     grid-template-columns: 1fr;
